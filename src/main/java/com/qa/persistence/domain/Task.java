@@ -36,8 +36,8 @@ public class Task {
     @NotNull
     private String type;
     
-//    @ManyToOne
-//    private Priority priority;
+    @ManyToOne
+    private TList tlist;
     
     public Task(String taskName, String type) {
     	super();
